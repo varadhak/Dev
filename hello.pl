@@ -1,4 +1,4 @@
-perl -w
+#!perl -w
 use strict;
 my @array = 1 ..10;
 print join("," , @array) . "\n";
