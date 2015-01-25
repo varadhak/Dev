@@ -1,3 +1,4 @@
+#!perl -w
 $string = '\'tcs\'';
 print "Before remove thebackslashesthe string is: $string\n";
 $string =~s/\'//g;
